@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+nav{
+    color: white;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: grey;
+}
+
+nav ul li:hover{
+    color: lightgray;
+    cursor: pointer;
+}
+
+nav h1{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+nav ul{
+    text-align: center;
+    margin: 25px;
+}
+
+.menu__container{
+    height: max-content;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__items{
+    height: 350px;
+    width: 200px;
+    background-color: white;
+    border: solid black 4px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+
+}
+
+.menu__items img{
+    height: 250px;
+    width: 200px;
+}
+
+.menu__items button{
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.menu__items button:hover{
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+}
+.contact{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.contact__table{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.contact__table input{
+    margin-left: 5px;
+}
+
+.contact__button{
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 50px;
+    width: 400px;
+    background-color: yellow;
+}
